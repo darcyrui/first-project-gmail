@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    height: 100vh;
+    overflow: hidden;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+   
+}
+.header{
+    width:auto;
+    height: 60px;
+}
+
+.gmail{
+    width: 90px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.menu {
+    display: flex;
+    border:1px black solid;
+    background: #f1f1f1;
+    width: 300px;
+    flex-flow: column;
+    height: calc(100vh - 60px);
+}
+
+.composeMessage{
+    background: white;
+    height:42px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 25px;
+    padding-left: 30px;
+    border-radius: 5px;
+    min-width:180px;
+}
+.plus{
+    width:29px;
+    margin-right:5px;
+    margin-left: 20px;
+}
+.directory  {
+    height: auto;
+    overflow-y: auto;
+    margin-top: 20px;
+    max-height: calc(100vh - 42px - 80px);
+}
+
+.menu-item-container{
+    display: flex;
+    align-items: center;
+    padding-left: 38px;
+    border-left: 4px solid transparent;
+    height: 40px;
+}
+
+.menu-item-container--active {
+    border-left: 4px solid #234bd1;
+    color: #234bd1;
+}
+
+.new-folders{
+    width:14px;
+    margin-left: 100px;
+}
+.directory-folders{
+    padding-top:13px;
+    border-top:#cac9c9 solid 1px; 
+    border-bottom:#cac9c9 solid 1px;  
+}
+.icon {
+    width: 14px;
+    margin-right: 20px;
+}
+
+.directory-settings {
+    margin-top: 14px;
+    height: 220px;
+    float: bottom;
+}
+
+.more-settings{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.more-settings-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bottom-icon{
+    width:30px;
+}
+.section-3{
+    flex: 20%;
+    border:1px black solid;
+   
+    width:100px;
+}
+.section-4{
+    flex: 43%;
+    border:1px black solid;
+    
+}
+.section-5{
+    flex: 17%;
+    border:1px black solid;
+    
+}
