@@ -1,111 +1,223 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Gmail Excellence</title>
-        <link rel="stylesheet" type="text/css" href="./index.css">
-        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">        
-    </head>
 
-    <body>
-        <div class="header"> 
-            <img class="gmail" src="img/gmail-logo.png" alt="sign">
-        </div>
-        <div class="content">
-            <div class="menu"> 
-                <div class="composeMessage">
-                    <img class="plus" src="img/plus.png" alt="pic"> 
-                    <p>Compose Message</p>
-                </div>   
-                <div class="directory">
-                   <div class="directory-inbox"> 
-                        <div class="menu-item-container menu-item-container--active">
-                            <img class="icon" src="img/icon1.png" alt="icon">
-                            <p>Inbox</p>
-                        </div>
-                        <div class="menu-item-container">
-                            <img class="icon" src="img/icon2.png" alt="icon">
-                            <p>Starred</p>
-                        </div>
-                        <div class="menu-item-container">
-                            <img class="icon" src="img/icon3.png" alt="icon">
-                            <p>Snoozed</p>
-                        </div>
-                        <div class="menu-item-container">
-                            <img class="icon" src="img/icon4.png" alt="icon">
-                            <p>Sent</p>
-                        </div>
-                        <div class="menu-item-container">
-                            <img class="icon" src="img/icon5.png" alt="icon">
-                            <p>Draft</p>
-                        </div>
-                        <div class="menu-item-container">
-                            <img class="icon" src="img/icon6.png" alt="icon">
-                            <p>Spam</p>
-                        </div>
-                        <div class="menu-item-container">
-                            <img class="icon" src="img/icon7.png" alt="icon">
-                            <p>Trash</p>
-                        </div>
+<head>
+    <title>Gmail Excellence</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <img class="gmail" src="img/gmail-logo.png" alt="sign">
+    </div>
+    <div class="content">
+        <div class="menu">
+            <div class="composeMessage">
+                <img class="plus" src="img/plus.png" alt="pic">
+                <p>Compose Message</p>
+            </div>
+            <div class="directory">
+                <div class="directory-inbox">
+                    <div class="menu-item-container menu-item-container--active">
+                        <img class="icon" src="img/icon1.svg" alt="icon">
+                        <p>Inbox</p>
                     </div>
-                    <div class="directory-folders">
-                        <div class="menu-item-container">
-                            <p>FOLDERS</p>
-                            <img class="new-folders" src="img/pluss.png" alt="iconn">  
-                        </div>
-                        <div class="menu-item-container">
-                            <img class="icon" src="img/folder1.png" alt="icon">
-                            <p>Photos</p>
-                        </div>
-                        <div class="menu-item-container">
-                                <img class="icon" src="img/folder2.png" alt="icon">
-                                <p>Expenses</p>
+                    <div class="menu-item-container">
+                        <img class="icon" src="img/icon2.png" alt="icon">
+                        <p>Starred</p>
+                    </div>
+                    <div class="menu-item-container">
+                        <img class="icon" src="img/icon3.png" alt="icon">
+                        <p>Snoozed</p>
+                    </div>
+                    <div class="menu-item-container">
+                        <img class="icon" src="img/icon4.png" alt="icon">
+                        <p>Sent</p>
+                    </div>
+                    <div class="menu-item-container">
+                        <img class="icon" src="img/icon5.png" alt="icon">
+                        <p>Draft</p>
+                    </div>
+                    <div class="menu-item-container">
+                        <img class="icon" src="img/icon6.png" alt="icon">
+                        <p>Spam</p>
+                    </div>
+                    <div class="menu-item-container">
+                        <img class="icon" src="img/icon7.png" alt="icon">
+                        <p>Trash</p>
+                    </div>
+                </div>
+                <div class="directory-folders">
+                    <div class="menu-item-container">
+                        <p>FOLDERS</p>
+                        <img class="new-folders" src="img/pluss.png" alt="iconn">
+                    </div>
+                    <div class="menu-item-container">
+                        <img class="icon" src="img/folder1.png" alt="icon">
+                        <p>Photos</p>
+                    </div>
+                    <div class="menu-item-container">
+                        <img class="icon" src="img/folder2.png" alt="icon">
+                        <p>Expenses</p>
+                    </div>
+                    <div class="menu-item-container">
+                        <img class="icon" src="img/folder3.png" alt="icon">
+                        <p>Work</p>
+                    </div>
+                    <div class="menu-item-container">
+                        <img class="icon" src="img/folder4.png" alt="icon">
+                        <p>Trips</p>
+                    </div>
+                    <div class="menu-item-container">
+                        <img class="icon" src="img/folder5.png" alt="icon">
+                        <p>Travels</p>
+                    </div>
+                </div>
+                <div class="directory-settings">
+                    <div class="menu-item-container">
+                        <img class="icon" src="img/setting.png" alt="icon">
+                        <p>Settings</p>
+                    </div>
+                    <div class="menu-item-container">
+                        <img class="icon" src="img/help.png" alt="icon">
+                        <p>Help & Feedback</p>
+                    </div>
+                </div>
+            </div>
+            <div class="more-settings">
+                <div class="more-settings-item">
+                    <img class="bottom-icon" src="img/gmail.png" alt="icon">
+                </div>
+                <div class="more-settings-item">
+                    <img class="bottom-icon" src="img/quote.png" alt="icon">
+                </div>
+                <div class="more-settings-item">
+                    <img class="bottom-icon" src="img/contact.png" alt="icon">
+                </div>
+            </div>
+        </div>
+        <div class="email-list">
+            <div class="top-div">
+                <div class="selection-container">
+                    <div class="left">
+                        <img class="selection-box" src="img/selection-box.svg" alt="box">
+                        <p>None</p>
+                    </div>
+                    <div class="right">
+                        <img class="more-item" src="img/threedots.svg" alt="three dots">
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-div">
+                <div class="starred-container">
+                    <div class="email-items">
+                        <div class="profile-picture-container">
+                            <img class="headshot1" src="img/headshot1.png" alt="pic">
+                            <div class="email-content-items">
+                                <p class="suject-item">Happy Birthday</p>
+                                <p class="name-item">Mario Flamingo</p>
                             </div>
-                        <div class="menu-item-container">
-                            <img class="icon" src="img/folder3.png" alt="icon">
-                            <p>Work</p>
                         </div>
-                        <div class="menu-item-container">
-                            <img class="icon" src="img/folder4.png" alt="icon">
-                            <p>Trips</p>
-                        </div>
-                        <div class="menu-item-container">
-                            <img class="icon" src="img/folder5.png" alt="icon">
-                            <p>Travels</p>
+                        <div class="dates-container">
+                            <p class="time">May 13</p>
+                            <img class="starred" src="img/star.svg" alt="pic">
                         </div>
                     </div>
-                    <div class="directory-settings">
-                        <div class="menu-item-container">
-                            <img class="icon" src="img/setting.png" alt="icon">
-                            <p>Settings</p>
+                    <div class="function-items">
+                        <div class="function-wrapper">
+                            <div class="archive">
+                                <img class="function-icon" src="img/archive.svg" alt="ion">
+                            </div>
+                            <div class="trash">
+                                <img class="function-icon" src="img/trash.svg" alt="ion">
+                            </div>
+                            <div class="mail">
+                                <img class="function-icon" src="img/mail.svg" alt="ion">
+                            </div>
+                            <div class="clock">
+                                <img class="function-icon" src="img/clock.svg" alt="ion">
+                            </div>
                         </div>
-                        <div class="menu-item-container">
-                            <img class="icon" src="img/help.png" alt="icon">
-                            <p>Help & Feedback</p>
+                        <div class="number-of-email">
+                            <p class="number">2</p>
                         </div>
                     </div>
                 </div>
-                <div class="more-settings">
-                        <div class="more-settings-item">
-                            <img class="bottom-icon" src="img/gmail.png" alt="icon">
+                <div class="email-list-container">
+                    <div class="email-wrapper">
+                        <div class="email-container">
+                            <img class="headshot2" src="img/headshot2.png" alt="pic">
+                            <div class="email-content-container">
+                                <p class="suject-item">Design Brief</p>
+                                <p class="name-items">Maria Money</p>
+                            </div>
                         </div>
-                        <div class="more-settings-item">
-                            <img class="bottom-icon" src="img/quote.png" alt="icon">
+                        <div class="email-content-container-dates-container">
+                            <p class="times">May 11</p>
+                            <img class="starred" src="img/star.svg" alt="pic">
                         </div>
-                        <div class="more-settings-item">
-                            <img class="bottom-icon" src="img/contact.png" alt="icon">
+                    </div>
+                    <div class="email-wrapper-following-items">
+                        <div class="email-container">
+                            <img class="headshot2" src="img/headshot3.png" alt="pic">
+                            <div class="email-content-container">
+                                <p class="suject-item">Mobile App Design</p>
+                                <p class="name-items">David Nell</p>
+                            </div>
                         </div>
+                        <div class="email-content-container-dates-container">
+                            <p class="times">May 09</p>
+                        </div>
+                    </div>
+                    <div class="email-wrapper-following-items">
+                        <div class="email-container">
+                            <img class="headshot2" src="img/headshot4.png" alt="pic">
+                            <div class="email-content-container">
+                                <p class="suject-item">Future Technology</p>
+                                <p class="name-items">Kresten Civic</p>
+                            </div>
+                        </div>
+                        <div class="email-content-container-dates-container">
+                            <p class="times">May 06</p>
+                        </div>
+                    </div>
+                    <div class="email-wrapper-following-items">
+                        <div class="email-container">
+                            <img class="headshot2" src="img/headshot5.png" alt="pic">
+                            <div class="email-content-container">
+                                <p class="suject-item">Important Meeting</p>
+                                <p class="name-items">Carma Melo</p>
+                            </div>
+                        </div>
+                        <div class="email-content-container-dates-container">
+                            <p class="times">May 06</p>
+                        </div>
+                    </div>
+                    <div class="email-wrapper-following-items">
+                        <div class="email-container">
+                            <img class="headshot2" src="img/headshot6.png" alt="pic">
+                            <div class="email-content-container">
+                                <p class="suject-item">Online Banking</p>
+                                <p class="name-items">Castro Davis</p>
+                            </div>
+                        </div>
+                        <div class="email-content-container-dates-container">
+                            <p class="times">May 03</p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
-            <div class="section-3"> 
-                    
-            </div>
-            <div class="section-4"> 
-                    
-            </div>
-            <div class="section-5"> 
-                    
-            </div>
         </div>
-    </body>
+
+        <div class="section-4">
+
+        </div>
+        <div class="section-5">
+
+        </div>
+    </div>
+</body>
+
 </html>
