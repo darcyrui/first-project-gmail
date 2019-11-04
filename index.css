@@ -119,8 +119,9 @@ body {
     align-items: center;
     justify-content: space-between;
     height:86px;
-    border-top: #e7e6e6 solid 0.1px;
-    border-bottom:  #e7e6e6 solid 0.5px
+    border-top: 1px#ecebebb2 solid;
+    border-bottom:  1px#ecebebb2 solid;
+    border-right: 1px#ecebebb2 solid;
 }
 
 .left {
@@ -185,7 +186,7 @@ body {
 }
 
 .email-content-items{
-    margin-top: 5px;
+    margin-top: 7px;
 }
 
 .dates-container {
@@ -198,13 +199,13 @@ body {
     font-size: 11px;
     color: #dddddd;
 }
-.starred {
-    width:11px;
-    margin-left: 21px;
+.starrred {
+    width:20px;
+    margin-left: 18px;
 }
 
-.time, .starred {
-    height: 10px;
+.time, .starrred {
+    height: 12px;
     margin-top: 0px;
 }
 
@@ -284,12 +285,12 @@ body {
     height: 10px;
     margin-top: 0px;
 }
+
 .headshot2 {
     width:60px;
     margin-right: 25px;
     margin-left: 18px;
 }
-
 
 .email-wrapper-following-items{
     margin-top:0px;
@@ -300,13 +301,230 @@ body {
     border-bottom: 1px#ecebebb2 solid;
     height:95px;
 }
-.section-4{ 
-    flex: 43%;
-    border:1px black solid;
+
+.main-mail-section { 
+    width: 720px;
+}
+
+.starred-contact-container {
+    display: flex;
+    align-items: center;
+    width: 720px;
+    border-bottom: 1px#ecebebb2 solid;
+    height: 86px;
+}
+
+.fav-contact {
+    font-size: 17px;
+    width:270px;
+}
+
+.fav-contact, .contact-container {
+    width:240px;
+    border: 1px#ecebebb2 solid;
+    display: flex;
+    align-items: center;
+    height: 86px;
+}
+
+.name{
+    flex-direction: column;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: -15px;
+}
+
+.fav-contact-starred {
+    margin-left:40px;
+    width:12px;
+}
+
+.favorite {
+    margin-left: 18px;
+}
+
+.initals {
+    width:55px;
+    margin-left: 25px;
+}
+
+.time-container {
+    color: grey;
+    font-size: 13px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.time-container {
+    margin-left: 50px;
+}
+
+.button-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    margin-right: 50px;
+}
+
+.button {
+    width: 20px;
+}
+
+.button3 {
+    width: 17px;
+    margin-top:4px;
+}
+
+.tittle-container {
+    display: flex;
+    align-items: center;
+    margin-top:20px;
+}
+
+.main-mail-content-container {
+   
+}
+
+.thumbnail {
+    width:60px;
+    margin-right: 20px;
+    padding-left: 50px;
+}
+
+.header-text-1 {
+    font-size: 17px;
+    font-weight: 1000;
+    height: 30px;
+}
+
+.header-text-2 {
+    font-size: 12px;
+    color: grey;
+    height:20px;
+}
+
+.body-container {
+    height:350px;
+    border-bottom:#ecebebb2 1px solid;
+    padding-left: 50px;
+}
+.bold-content {
+    font-size : 28px;
+    font-weight: 900;
+    width:500px;
+    padding-top: 30px;
+}
+
+.paragraph1 , .paragraph2{
+    font-size: 17px;
+    padding-top:30px;
+    width: 550px;
+    color: #646464e8;
+    height: 60px;
+}
+
+.reply-container {
+    
+    height: 200px;
     
 }
-.section-5 {
-    flex: 17%;
-    border:1px black solid;
+
+.reply-tittle {
+    display: flex;
+    align-items: center;
+    border: 1px #ecebebb2 solid;
+    height: 50px;
+    font-weight: bolder;
+}
+
+.reply {
+    width:18px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.reply-name {
+    font-size: 16px;
+}
+
+.unfinished-thank {
+    margin-top:10px;
+    
+}
+.reply-content {
+    margin-left: 50px;
+    padding-top:20px;
+    height: 100px;
+}
+
+.mouse {
+    margin-left: -10px;
+    width: 18px;
+}
+
+.reply-functional-items {
+    border :1px #ecebebb2 solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.reply-functional-item-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.functional-items-button-container {
+    display: flex;
+    align-items: center;
+}
+
+.functional-items-button {
+    width: 20px;
+    margin-right:11px;
+}
+
+.send-container {
+    font-size: 12px;
+    font-weight: bolder;
+    border :1px #ecebebb2 solid;
+    height: 25px;
+    width: 60px;
+    background-color: #1477FF;
+    color:white;
+    border-radius: 4px;
+    margin-left:50px;
+    margin-right:15px;
+    padding-top:8px;
+    padding-left: 30px;
+}
+
+.functional-items-button-container-end {
+    display: flex;
+    align-items: center;
+    margin-right:15px;
+}
+
+.right-end-button {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.right-end-button3{
+    
+    width: 18px;
+}
+.end-container {
+    width: 40px;
+}
+.media-section {
+    width:400px;
+    border:1px solid #ecebebb2;
     
 }
